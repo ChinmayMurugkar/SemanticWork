@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY medicalpaper "http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:medicalpaper="http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#abstratct -->
+
+    <owl:ObjectProperty rdf:about="#abstratct">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#has_a -->
+
+    <owl:ObjectProperty rdf:about="#has_a"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#title -->
+
+    <owl:ObjectProperty rdf:about="#title">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <owl:ObjectProperty rdf:about="&owl;topDataProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#abstr -->
+
+    <owl:DatatypeProperty rdf:about="#abstr"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#abstratct -->
+
+    <owl:DatatypeProperty rdf:about="#abstratct">
+        <rdf:type rdf:resource="&owl;FunctionalDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#annotation -->
+
+    <owl:DatatypeProperty rdf:about="#annotation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#title -->
+
+    <owl:DatatypeProperty rdf:about="#title"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#url -->
+
+    <owl:DatatypeProperty rdf:about="#url"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#medicalpaper -->
+
+    <owl:Class rdf:about="#medicalpaper"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper1 -->
+
+    <owl:Thing rdf:about="#paper1">
+        <rdf:type rdf:resource="#medicalpaper"/>
+        <abstratct rdf:datatype="&xsd;anyType"
+            >Almost three decades ago </abstratct>
+        <annotation>cancer</annotation>
+        <url
+            >http://www.smw.ch/content/smw-2011-13185/</url>
+        <title
+            >Lung cancer screening has the potential to safe lives, but shall we do it?</title>
+        <abstr
+            >hether screening has an impact on lung cancer mortality remained unproven. Recently, the preliminary results of the (CXR) and sputum cytology improves survival in a screened population. A number of subsequent studies using chest computed tomography (CT) in smokers revealed lesions suspect for cancer in around  and had a lung cancer detection rate of approx  Since these trials lacked a control arm, the question whether screening has an impact on lung cancer mortality remained unproven. Recently, the preliminary results of the randomised controlled National Lung Screening Trial (NLST), a study organised by the US National Cancer Institute, confirmed for the first time that lung cancer screening by CT is associated with a reduction in lung cancer mortality and in all-cause mortality compared with a control group undergoing CXR at the same time intervals. However, before lung cancer CT screening can be recommended, many open questions need to be answered with respect to costs and reimbursement, duration of an appropriate screening programme and its psychological impact.</abstr>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper2 -->
+
+    <owl:Thing rdf:about="#paper2">
+        <rdf:type rdf:resource="#medicalpaper"/>
+        <abstratct rdf:datatype="&rdfs;Literal"
+            >Extensive studies of pre-TCR- and TCR-dependent signaling have led to characterization of a pathway deemed essential for efficient T cell development, and comprised of a cascade of sequential events involving phosphorylation of Lck and ZAP-70, followed by phosphorylation of LAT and S</abstratct>
+        <abstr
+            >Extensive studies of pre-TCR- and TCR-dependent signaling have led to characterization of a pathway deemed essential for efficient T cell development, and comprised of a cascade of sequential events involving phosphorylation of Lck and ZAP-70, followed by phosphorylation of LAT and SLP-76, and subsequent additional downstream events. Of interest, however, reports from our lab as well as others have indicated that the requirements for ZAP-70, LAT, and SLP-76 are partially reversed by inactivation of c-Cbl (Cbl), an E3 ubiquitin ligase that targets multiple molecules for ubiquitination and degradation. Analysis of signaling events in these Cbl knockout models, including the recently reported analysis of SLP-76 transgenes defective in interaction with Vav1, suggested that activation of Vav1 might be a critical event in alternative pathways of T cell development. To extend the analysis of signaling requirements for thymic development, we have therefore assessed the effect of Cbl inactivation on the T cell developmental defects that occur in Vav1-deficient mice. The defects in Vav1-deficient thymic development, including a marked defect in DN3-DN4 transition, were completely reversed by Cbl inactivation, accompanied by enhanced phosphorylation of PLC-&#947;1 and ERKs in response to pre-TCR/TCR cross-linking of Vav1(-/-)Cbl(-/-) DP thymocytes. Taken together, these results suggest a substantially modified paradigm for pre-TCR/TCR signaling and T cell development. The observed consensus pathways of T cell development, including requirements for ZAP-70, LAT, SLP-76, and Vav1, appear to reflect the restriction by Cbl of an otherwise much broader set of molecular pathways capable of mediating T cell development.cancer.</abstr>
+        <title
+            >Cbl enforces vav1 dependence and a restricted pathway of T cell development.</title>
+        <annotation>cancer</annotation>
+        <url
+            >http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0018542</url>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper3 -->
+
+    <medicalpaper rdf:about="#paper3">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <abstratct rdf:datatype="&rdfs;Literal"
+            >In Drosophila, the CASZ1 (castor) gene encodes a zinc finger transcription factor and is a neural fate-determination gene. In mammals, the CASZ1 gene encodes two major isoforms, CASZ1a with 11 zinc fingers and CASZ1b with 5 zinc fingers. CASZ1b is more evolutionally conserved since it is t</abstratct>
+        <abstr
+            >In Drosophila, the CASZ1 (castor) gene encodes a zinc finger transcription factor and is a neural fate-determination gene. In mammals, the CASZ1 gene encodes two major isoforms, CASZ1a with 11 zinc fingers and CASZ1b with 5 zinc fingers. CASZ1b is more evolutionally conserved since it is the only homologue found in drosophila and Xenopus. Our previous study showed that full length CASZ1 (CASZ1a) functions to suppress growth in neuroblastoma tumor. However, the function of CASZ1b isoform in mammals is unknown. In this study, realtime PCR analyses indicate that mouse CASZ1b (mCASZ1b) is dynamically expressed during neurogenesis. CASZ1b and CASZ1a co-exist in all the neuronal tissues but exhibit distinct expression patterns spatially and temporally during brain development. CASZ1b and CASZ1a expression is coordinately upregulated by the differentiation agent Retinoic Acid, as well as agents that modify the epigenome in neural crest derived neuroblastoma cell lines. In contrast CASZ1b is down regulated while CASZ1a is upregulated by agents that raise intracellular cAMP levels. CASZ1b and CASZ1a have no synergistic or antagonistic activities on the regulation of their target NGFR gene transcription. Specific restoration of CASZ1b in NB cells suppresses tumor growth in vitro and in vivo. Consistent with its function role, we find that low CASZ1b expression is significantly associated with decreased survival probability of neuroblastoma patients (p&lt;0.02). This study indicates that although their mechanisms of regulation may be distinct, both CASZ1b and CASZ1a have largely redundant but critical roles in suppressing tumor cell growth.headache.</abstr>
+        <url
+            >http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0018557</url>
+        <annotation>headache</annotation>
+        <title
+            >CASZ1b, the Short Isoform of CASZ1 Gene, Coexpresses with CASZ1a during Neurogenesis and Suppresses Neuroblastoma Cell Growth</title>
+    </medicalpaper>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper4 -->
+
+    <owl:Thing rdf:about="#paper4">
+        <rdf:type rdf:resource="#medicalpaper"/>
+        <abstratct rdf:datatype="&rdfs;Literal"
+            >Brain metastasis from esophageal carcinoma has been considered rare and survival following esophageal carcinoma with distant metastasis is poor. The purpose of this report was to clarify cumulative incidence and risk factors for brain </abstratct>
+        <title
+            >Occurrence and Clinical Features of Brain Metastasis after Chemoradiotherapy for Esophageal Carcinoma.</title>
+        <url
+            >http://www.jstage.jst.go.jp/article/jrr/advpub/0/1104120206/_pdf</url>
+        <annotation>headache</annotation>
+        <abstr
+            >Brain metastasis from esophageal carcinoma has been considered rare and survival following esophageal carcinoma with distant metastasis is poor. The purpose of this report was to clarify cumulative incidence and risk factors for brain metastasis after chemoradiotherapy for esophageal carcinoma, and to consider recommended treatments for brain metastasis from esophageal carcinoma. We reviewed 391 patients treated with chemoradiotherapy. Median age was 65 years. Clinical stages were I, II, III, and IV in 32, 47, 150, and 162 patients, respectively. Brain imaging was performed usually when patients revealed neurological symptoms. The 3-year cumulative incidence of brain metastasis after chemoradiotherapy was 6.6%. There were 4 patients with single metastasis and 8 with multiple metastases. Initial clinical stages were II, III, and IV in 1, 2, and 9 patients, respectively. Histology included squamous cell carcinoma in 10 patients and others in 2 patients. Univariate analysis demonstrated M factor, distant lymph node relapse, and recurrent lung and liver metastasis as significant risk factors of brain metastasis (P &lt; 0.05). Median survival time after diagnosis of brain metastasis was 2.1 months. Brain metastasis was not directly related to cause of mortality. The causes were extracranial tumor deterioration in 8 patients and infection in 4 patients. Brain metastasis may increase in the future with improving survival from esophageal carcinoma. However, considering the poor survival after diagnosis of brain metastasis, short-term palliative therapy for brain metastasis appears preferable to vigorous long-term therapy.headache.</abstr>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper5 -->
+
+    <medicalpaper rdf:about="#paper5">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <abstratct rdf:datatype="&rdfs;Literal"
+            >Purpose: Cryptococcal meningitis is a relatively common opportunistic infection in human immunodeficiency virus (HIV) patients and it can frequently occur in immunocompetent hosts without any apparent underlying disease. Nevertheless, little is known about cyptococcal meningitis in the </abstratct>
+        <abstr
+            >Purpose: Cryptococcal meningitis is a relatively common opportunistic infection in human immunodeficiency virus (HIV) patients and it can frequently occur in immunocompetent hosts without any apparent underlying disease. Nevertheless, little is known about cyptococcal meningitis in the Korean population. The purpose of this study was to evaluate the clinical features and initial laboratory findings of cryptococcal meningitis in patients with and without HIV at a tertiary care teaching hospital. Materials and Methods: We performed a retrospective study at a tertiary care teaching hospital from January 2001 to December 2009. Eleven HIV positive patients and nine HIV negative patients were included. Results: The most common symptoms were headache and fever in cryptococcal meningitis, and diabetic mellitus, end stage renal disease and liver cirrhosis were the main associated conditions in patients without HIV. Patients with HIV showed lower peripheral CD4+ cell counts (median: 9, range: 1-107) and a higher burden of cryptococcus than patients without HIV. There were no statistically significant differences in serum CRP level and other cerebrospinal fluid parameters between patients with HIV and without HIV. The in-hospital mortality was 10%, and recurrence of cyptococcal meningitis was observed in 3 patients with HIV and this occurred within 5 months of the first episode. Conclusion: Cryptococcal meningitis is fatal without treatment, therefore, rapid recognition of symptoms such as fever and headache and diagnosis is required to decrease the mortality. Recurrence of meningitis after treatment should carefully be followed up, especially in advanced HIV patients.cold.</abstr>
+        <url
+            >http://www.eymj.org/DOIx.php?id=10.3349/ymj.2011.52.3.482</url>
+        <title
+            >Cryptococcal Meningitis in Patients with or without Human Immunodeficiency Virus: Experience in a Tertiary Hospital</title>
+        <annotation>cold</annotation>
+    </medicalpaper>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper6 -->
+
+    <owl:Thing rdf:about="#paper6">
+        <rdf:type rdf:resource="#medicalpaper"/>
+        <abstratct rdf:datatype="&rdfs;Literal"
+            >Manganese regulates many enzymes and is essential for normal development and body function. Chronic manganese intoxication has an insidious and progressive course and usually starts with complaints of headache, fatigue, sleep disturbances, irritability and emotional instability. Later, several o</abstratct>
+        <url
+            >http://www.jmedicalcasereports.com/content/pdf/1752-1947-5-146.pdf</url>
+        <title
+            >Manganese and acute paranoid psychosis: a case report.</title>
+        <abstr
+            >Manganese regulates many enzymes and is essential for normal development and body function. Chronic manganese intoxication has an insidious and progressive course and usually starts with complaints of headache, fatigue, sleep disturbances, irritability and emotional instability. Later, several organ systems may be affected and, due to neurotoxicity, an atypical parkinsonian syndrome may emerge. With regard to neuropsychiatry, an array of symptoms may develop up to 30 years after intoxication, of which gait and speech abnormalities, cognitive and motor slowing, mood changes and hallucinations are the most common. Psychotic phenomena are rarely reported.fever.cephalgia.</abstr>
+        <annotation>fever</annotation>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper7 -->
+
+    <owl:Thing rdf:about="#paper7">
+        <url
+            >http://adsabs.harvard.edu/abs/1985Natur.317..145R</url>
+        <abstr
+            >We report the first atomic resolution structure of an animal virus, human rhinovirus 14. It is strikingly similar to known icosahedral plant RNA viruses. Four neutralizing immunogenic regions have been identified. These, and corresponding antigenic sequences of polio and foot-and-mouth disease viruses, reside on external protrusions. A large cleft on each icosahedral face is probably the host cell receptor binding site</abstr>
+        <title
+            >Structure of a human Common cold virus and functional relationship to other picornaviruses</title>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper8 -->
+
+    <owl:Thing rdf:about="#paper8">
+        <abstr
+            >To examine the hypothesis that diverse ties to friends, family, work, and community are associated with increased host resistance to infection.</abstr>
+        <url
+            >http://jama.ama-assn.org/content/277/24/1940.short</url>
+        <title
+            >Social Ties and Susceptibility to the Common Cold</title>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl#paper9 -->
+
+    <owl:Thing rdf:about="#paper9"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

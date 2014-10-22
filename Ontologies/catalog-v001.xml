@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://org.semwebprogramming/chapter2/people" uri="additionalFriends.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://org.semwebprogramming/chapter2/people" uri="additionalFriendsSchema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://org.semwebprogramming/chapter2/people" uri="restriction.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/1/Ontology1.owl" uri="Ontology1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/1/Ontology1.owl" uri="Ontology1_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/1/Ontology2.owl" uri="Ontology2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/1/Ontology2.owl" uri="Ontology2_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl" uri="temp1/Medicalinfo_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="Medicalinfo_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl" uri="medicalpaper.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="duplicate:http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl" uri="medicalpaper_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl" uri="temp/Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl" uri="temp/MedicalInfo_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="temp1/Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="old%20ontologies/Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="backup%20ontology%20/26%20Feb/Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="backup%20ontology%20/1st%20march%20ontology/Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/Ontology1303310384456.owl" uri="backup%20ontology%20/1st%20march%20ontology/2nd/Medicalinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl" uri="backup%20ontology%20/27th%20feb/medicalpaper_schema.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1330631095793" name="shadowed:http://www.semanticweb.org/ontologies/2011/3/medicalpaper.owl" uri="backup%20ontology%20/1st%20march%20ontology/medicalpaper_schema.owl"/>
+    </group>
+</catalog>
