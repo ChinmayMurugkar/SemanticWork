@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1302803079875 "http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Ontology1302803079875="http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#has_a -->
+
+    <owl:ObjectProperty rdf:about="#has_a"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#AGE -->
+
+    <owl:DatatypeProperty rdf:about="#AGE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#DISEASE -->
+
+    <owl:DatatypeProperty rdf:about="#DISEASE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#ID -->
+
+    <owl:DatatypeProperty rdf:about="#ID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Name -->
+
+    <owl:DatatypeProperty rdf:about="#Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#SEX -->
+
+    <owl:DatatypeProperty rdf:about="#SEX"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Synonym -->
+
+    <owl:DatatypeProperty rdf:about="#Synonym">
+        <rdfs:subPropertyOf rdf:resource="#DISEASE"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#MedicalInformation -->
+
+    <owl:Class rdf:about="#MedicalInformation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Patient1 -->
+
+    <MedicalInformation rdf:about="#Patient1">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <AGE rdf:datatype="&xsd;integer">35</AGE>
+        <ID rdf:datatype="&xsd;int">606 344 2344</ID>
+        <DISEASE rdf:datatype="&rdfs;Literal">Cancer</DISEASE>
+        <Name rdf:datatype="&xsd;Name">John Lynn</Name>
+        <SEX rdf:datatype="&rdfs;Literal">Male</SEX>
+    </MedicalInformation>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Patient2 -->
+
+    <MedicalInformation rdf:about="#Patient2">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <AGE rdf:datatype="&xsd;int">38</AGE>
+        <ID rdf:datatype="&xsd;int">717 579 1660</ID>
+        <DISEASE rdf:datatype="&rdfs;Literal">Brain tumor</DISEASE>
+        <SEX rdf:datatype="&rdfs;Literal">Female</SEX>
+        <Name rdf:datatype="&xsd;Name">Sameera Reddy</Name>
+    </MedicalInformation>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Patient3 -->
+
+    <MedicalInformation rdf:about="#Patient3">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <AGE rdf:datatype="&xsd;int">29</AGE>
+        <ID rdf:datatype="&xsd;int">717 579 1630</ID>
+        <DISEASE rdf:datatype="&rdfs;Literal">Headache</DISEASE>
+        <SEX rdf:datatype="&rdfs;Literal">Male</SEX>
+        <Name rdf:datatype="&xsd;Name">Sam Li</Name>
+    </MedicalInformation>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Patient4 -->
+
+    <owl:Thing rdf:about="#Patient4">
+        <rdf:type rdf:resource="#MedicalInformation"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/3/Ontology1302803079875.owl#Patient5 -->
+
+    <MedicalInformation rdf:about="#Patient5">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </MedicalInformation>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
